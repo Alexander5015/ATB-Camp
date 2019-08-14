@@ -1,0 +1,64 @@
+body{
+  font-family: Neue Helvetica, sans-serif;
+  background-color: black;
+  font-weight: normal;
+}
+
+#hero {
+  height: 110%;
+  background: black;
+  background-position: center;
+  background-size: cover;
+  left: 0;
+  
+  
+}
+
+form{
+  color:black;
+  background:black;
+  border:none;
+}
+
+h2{
+  padding-top: 0px;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+
+h3{
+  padding-top: 60px;
+  padding-bottom: 0px;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left:0;
+  list-style-type: none;
+  width:100%;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #242424;
+}
+.navBarItem {
+  float:left;
+}
+.navBarLink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navBarLink:hover {
+  background-color:#111;
+}
+#FirstName{
+  border:none;
+}
